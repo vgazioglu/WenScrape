@@ -37,7 +37,7 @@ for job_elem in job_elems:
     print(location_elem.text.strip())
     print()
 
-python_jobs = results.find_all('h2', string='Python Developer')
+"""python_jobs = results.find_all('h2', string='Python Developer')
 
 python_jobs = results.find_all('h2',
                                string=lambda text: "python" in text.lower())
@@ -45,4 +45,4 @@ python_jobs = results.find_all('h2',
 for p_job in python_jobs:
     link = p_job.find('a')['href']
     print(p_job.text.strip())
-    print(f"Apply here: {link}\n")
+    print(f"Apply here: {link}\n")"""
